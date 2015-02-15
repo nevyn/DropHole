@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0511A0F61A91389000BEB8D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A0F51A91389000BEB8D0 /* AppDelegate.m */; };
+		0511A0F81A91389000BEB8D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A0F71A91389000BEB8D0 /* main.m */; };
+		0511A0FA1A91389000BEB8D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0511A0F91A91389000BEB8D0 /* Images.xcassets */; };
+		0511A0FD1A91389000BEB8D0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0511A0FB1A91389000BEB8D0 /* MainMenu.xib */; };
+		0511A1091A91389100BEB8D0 /* DropHoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A1081A91389100BEB8D0 /* DropHoleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0511A1031A91389100BEB8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0511A0E71A91389000BEB8D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0511A0EE1A91389000BEB8D0;
+			remoteInfo = DropHole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0511A0EF1A91389000BEB8D0 /* DropHole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropHole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0511A0F31A91389000BEB8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0511A0F41A91389000BEB8D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0511A0F51A91389000BEB8D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0511A0F71A91389000BEB8D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0511A0F91A91389000BEB8D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0511A0FC1A91389000BEB8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0511A1021A91389100BEB8D0 /* DropHoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropHoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0511A1071A91389100BEB8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0511A1081A91389100BEB8D0 /* DropHoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropHoleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0511A0EC1A91389000BEB8D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0511A0FF1A91389100BEB8D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0511A0E61A91389000BEB8D0 = {
+			isa = PBXGroup;
+			children = (
+				0511A0F11A91389000BEB8D0 /* DropHole */,
+				0511A1051A91389100BEB8D0 /* DropHoleTests */,
+				0511A0F01A91389000BEB8D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0511A0F01A91389000BEB8D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0511A0EF1A91389000BEB8D0 /* DropHole.app */,
+				0511A1021A91389100BEB8D0 /* DropHoleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0511A0F11A91389000BEB8D0 /* DropHole */ = {
+			isa = PBXGroup;
+			children = (
+				0511A0F41A91389000BEB8D0 /* AppDelegate.h */,
+				0511A0F51A91389000BEB8D0 /* AppDelegate.m */,
+				0511A0F91A91389000BEB8D0 /* Images.xcassets */,
+				0511A0FB1A91389000BEB8D0 /* MainMenu.xib */,
+				0511A0F21A91389000BEB8D0 /* Supporting Files */,
+			);
+			path = DropHole;
+			sourceTree = "<group>";
+		};
+		0511A0F21A91389000BEB8D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0511A0F31A91389000BEB8D0 /* Info.plist */,
+				0511A0F71A91389000BEB8D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0511A1051A91389100BEB8D0 /* DropHoleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0511A1081A91389100BEB8D0 /* DropHoleTests.m */,
+				0511A1061A91389100BEB8D0 /* Supporting Files */,
+			);
+			path = DropHoleTests;
+			sourceTree = "<group>";
+		};
+		0511A1061A91389100BEB8D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0511A1071A91389100BEB8D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0511A0EE1A91389000BEB8D0 /* DropHole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0511A10C1A91389100BEB8D0 /* Build configuration list for PBXNativeTarget "DropHole" */;
+			buildPhases = (
+				0511A0EB1A91389000BEB8D0 /* Sources */,
+				0511A0EC1A91389000BEB8D0 /* Frameworks */,
+				0511A0ED1A91389000BEB8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropHole;
+			productName = DropHole;
+			productReference = 0511A0EF1A91389000BEB8D0 /* DropHole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0511A1011A91389100BEB8D0 /* DropHoleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0511A10F1A91389100BEB8D0 /* Build configuration list for PBXNativeTarget "DropHoleTests" */;
+			buildPhases = (
+				0511A0FE1A91389100BEB8D0 /* Sources */,
+				0511A0FF1A91389100BEB8D0 /* Frameworks */,
+				0511A1001A91389100BEB8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0511A1041A91389100BEB8D0 /* PBXTargetDependency */,
+			);
+			name = DropHoleTests;
+			productName = DropHoleTests;
+			productReference = 0511A1021A91389100BEB8D0 /* DropHoleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0511A0E71A91389000BEB8D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ThirdCog;
+				TargetAttributes = {
+					0511A0EE1A91389000BEB8D0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0511A1011A91389100BEB8D0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0511A0EE1A91389000BEB8D0;
+					};
+				};
+			};
+			buildConfigurationList = 0511A0EA1A91389000BEB8D0 /* Build configuration list for PBXProject "DropHole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0511A0E61A91389000BEB8D0;
+			productRefGroup = 0511A0F01A91389000BEB8D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0511A0EE1A91389000BEB8D0 /* DropHole */,
+				0511A1011A91389100BEB8D0 /* DropHoleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0511A0ED1A91389000BEB8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0511A0FA1A91389000BEB8D0 /* Images.xcassets in Resources */,
+				0511A0FD1A91389000BEB8D0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0511A1001A91389100BEB8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0511A0EB1A91389000BEB8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0511A0F81A91389000BEB8D0 /* main.m in Sources */,
+				0511A0F61A91389000BEB8D0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0511A0FE1A91389100BEB8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0511A1091A91389100BEB8D0 /* DropHoleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0511A1041A91389100BEB8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0511A0EE1A91389000BEB8D0 /* DropHole */;
+			targetProxy = 0511A1031A91389100BEB8D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0511A0FB1A91389000BEB8D0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0511A0FC1A91389000BEB8D0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0511A10A1A91389100BEB8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0511A10B1A91389100BEB8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0511A10D1A91389100BEB8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DropHole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0511A10E1A91389100BEB8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DropHole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0511A1101A91389100BEB8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DropHoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropHole.app/Contents/MacOS/DropHole";
+			};
+			name = Debug;
+		};
+		0511A1111A91389100BEB8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DropHoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropHole.app/Contents/MacOS/DropHole";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0511A0EA1A91389000BEB8D0 /* Build configuration list for PBXProject "DropHole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0511A10A1A91389100BEB8D0 /* Debug */,
+				0511A10B1A91389100BEB8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0511A10C1A91389100BEB8D0 /* Build configuration list for PBXNativeTarget "DropHole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0511A10D1A91389100BEB8D0 /* Debug */,
+				0511A10E1A91389100BEB8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0511A10F1A91389100BEB8D0 /* Build configuration list for PBXNativeTarget "DropHoleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0511A1101A91389100BEB8D0 /* Debug */,
+				0511A1111A91389100BEB8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0511A0E71A91389000BEB8D0 /* Project object */;
+}
