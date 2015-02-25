@@ -12,6 +12,14 @@
 		0511A0FA1A91389000BEB8D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0511A0F91A91389000BEB8D0 /* Images.xcassets */; };
 		0511A0FD1A91389000BEB8D0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0511A0FB1A91389000BEB8D0 /* MainMenu.xib */; };
 		0511A1091A91389100BEB8D0 /* DropHoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A1081A91389100BEB8D0 /* DropHoleTests.m */; };
+		0511A11E1A913A2900BEB8D0 /* TCAHPAsyncSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A1151A913A2900BEB8D0 /* TCAHPAsyncSocketTransport.m */; };
+		0511A11F1A913A2900BEB8D0 /* TCAHPSimpleClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A1171A913A2900BEB8D0 /* TCAHPSimpleClient.m */; };
+		0511A1201A913A2900BEB8D0 /* TCAHPSimpleServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A1191A913A2900BEB8D0 /* TCAHPSimpleServer.m */; };
+		0511A1211A913A2900BEB8D0 /* TCAHPTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A11B1A913A2900BEB8D0 /* TCAHPTransport.m */; };
+		0511A1221A913A2900BEB8D0 /* TCAsyncHashProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A11D1A913A2900BEB8D0 /* TCAsyncHashProtocol.m */; };
+		0511A1251A913A3200BEB8D0 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A1241A913A3200BEB8D0 /* AsyncSocket.m */; };
+		0511A1281A913C0500BEB8D0 /* DropHoleTransferClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511A1271A913C0500BEB8D0 /* DropHoleTransferClient.m */; };
+		055EEB0F1A9E50CE008CCC7A /* DropHoleServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 055EEB0E1A9E50CE008CCC7A /* DropHoleServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,22 @@
 		0511A1021A91389100BEB8D0 /* DropHoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropHoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0511A1071A91389100BEB8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0511A1081A91389100BEB8D0 /* DropHoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropHoleTests.m; sourceTree = "<group>"; };
+		0511A1141A913A2900BEB8D0 /* TCAHPAsyncSocketTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCAHPAsyncSocketTransport.h; path = Libraries/TCAsyncHashProtocol/TCAHPAsyncSocketTransport.h; sourceTree = "<group>"; };
+		0511A1151A913A2900BEB8D0 /* TCAHPAsyncSocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCAHPAsyncSocketTransport.m; path = Libraries/TCAsyncHashProtocol/TCAHPAsyncSocketTransport.m; sourceTree = "<group>"; };
+		0511A1161A913A2900BEB8D0 /* TCAHPSimpleClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCAHPSimpleClient.h; path = Libraries/TCAsyncHashProtocol/TCAHPSimpleClient.h; sourceTree = "<group>"; };
+		0511A1171A913A2900BEB8D0 /* TCAHPSimpleClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCAHPSimpleClient.m; path = Libraries/TCAsyncHashProtocol/TCAHPSimpleClient.m; sourceTree = "<group>"; };
+		0511A1181A913A2900BEB8D0 /* TCAHPSimpleServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCAHPSimpleServer.h; path = Libraries/TCAsyncHashProtocol/TCAHPSimpleServer.h; sourceTree = "<group>"; };
+		0511A1191A913A2900BEB8D0 /* TCAHPSimpleServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCAHPSimpleServer.m; path = Libraries/TCAsyncHashProtocol/TCAHPSimpleServer.m; sourceTree = "<group>"; };
+		0511A11A1A913A2900BEB8D0 /* TCAHPTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCAHPTransport.h; path = Libraries/TCAsyncHashProtocol/TCAHPTransport.h; sourceTree = "<group>"; };
+		0511A11B1A913A2900BEB8D0 /* TCAHPTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCAHPTransport.m; path = Libraries/TCAsyncHashProtocol/TCAHPTransport.m; sourceTree = "<group>"; };
+		0511A11C1A913A2900BEB8D0 /* TCAsyncHashProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCAsyncHashProtocol.h; path = Libraries/TCAsyncHashProtocol/TCAsyncHashProtocol.h; sourceTree = "<group>"; };
+		0511A11D1A913A2900BEB8D0 /* TCAsyncHashProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCAsyncHashProtocol.m; path = Libraries/TCAsyncHashProtocol/TCAsyncHashProtocol.m; sourceTree = "<group>"; };
+		0511A1231A913A3200BEB8D0 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = Libraries/TCAsyncHashProtocol/TCAHPDemo/TCAHPDemo/AsyncSocket.h; sourceTree = "<group>"; };
+		0511A1241A913A3200BEB8D0 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = Libraries/TCAsyncHashProtocol/TCAHPDemo/TCAHPDemo/AsyncSocket.m; sourceTree = "<group>"; };
+		0511A1261A913C0500BEB8D0 /* DropHoleTransferClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropHoleTransferClient.h; sourceTree = "<group>"; };
+		0511A1271A913C0500BEB8D0 /* DropHoleTransferClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropHoleTransferClient.m; sourceTree = "<group>"; };
+		055EEB0D1A9E50CE008CCC7A /* DropHoleServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropHoleServer.h; sourceTree = "<group>"; };
+		055EEB0E1A9E50CE008CCC7A /* DropHoleServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropHoleServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,7 @@
 			children = (
 				0511A0F11A91389000BEB8D0 /* DropHole */,
 				0511A1051A91389100BEB8D0 /* DropHoleTests */,
+				0511A1121A913A1600BEB8D0 /* Frameworks */,
 				0511A0F01A91389000BEB8D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +103,10 @@
 			children = (
 				0511A0F41A91389000BEB8D0 /* AppDelegate.h */,
 				0511A0F51A91389000BEB8D0 /* AppDelegate.m */,
+				0511A1261A913C0500BEB8D0 /* DropHoleTransferClient.h */,
+				0511A1271A913C0500BEB8D0 /* DropHoleTransferClient.m */,
+				055EEB0D1A9E50CE008CCC7A /* DropHoleServer.h */,
+				055EEB0E1A9E50CE008CCC7A /* DropHoleServer.m */,
 				0511A0F91A91389000BEB8D0 /* Images.xcassets */,
 				0511A0FB1A91389000BEB8D0 /* MainMenu.xib */,
 				0511A0F21A91389000BEB8D0 /* Supporting Files */,
@@ -109,6 +138,33 @@
 				0511A1071A91389100BEB8D0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0511A1121A913A1600BEB8D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0511A1131A913A2100BEB8D0 /* TCAHP */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0511A1131A913A2100BEB8D0 /* TCAHP */ = {
+			isa = PBXGroup;
+			children = (
+				0511A1231A913A3200BEB8D0 /* AsyncSocket.h */,
+				0511A1241A913A3200BEB8D0 /* AsyncSocket.m */,
+				0511A1141A913A2900BEB8D0 /* TCAHPAsyncSocketTransport.h */,
+				0511A1151A913A2900BEB8D0 /* TCAHPAsyncSocketTransport.m */,
+				0511A1161A913A2900BEB8D0 /* TCAHPSimpleClient.h */,
+				0511A1171A913A2900BEB8D0 /* TCAHPSimpleClient.m */,
+				0511A1181A913A2900BEB8D0 /* TCAHPSimpleServer.h */,
+				0511A1191A913A2900BEB8D0 /* TCAHPSimpleServer.m */,
+				0511A11A1A913A2900BEB8D0 /* TCAHPTransport.h */,
+				0511A11B1A913A2900BEB8D0 /* TCAHPTransport.m */,
+				0511A11C1A913A2900BEB8D0 /* TCAsyncHashProtocol.h */,
+				0511A11D1A913A2900BEB8D0 /* TCAsyncHashProtocol.m */,
+			);
+			name = TCAHP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +266,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0511A1201A913A2900BEB8D0 /* TCAHPSimpleServer.m in Sources */,
+				0511A1281A913C0500BEB8D0 /* DropHoleTransferClient.m in Sources */,
+				0511A11E1A913A2900BEB8D0 /* TCAHPAsyncSocketTransport.m in Sources */,
 				0511A0F81A91389000BEB8D0 /* main.m in Sources */,
 				0511A0F61A91389000BEB8D0 /* AppDelegate.m in Sources */,
+				055EEB0F1A9E50CE008CCC7A /* DropHoleServer.m in Sources */,
+				0511A1211A913A2900BEB8D0 /* TCAHPTransport.m in Sources */,
+				0511A11F1A913A2900BEB8D0 /* TCAHPSimpleClient.m in Sources */,
+				0511A1221A913A2900BEB8D0 /* TCAsyncHashProtocol.m in Sources */,
+				0511A1251A913A3200BEB8D0 /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +343,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					Libraries,
+					"$(inherited)",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -315,6 +383,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					Libraries,
+					"$(inherited)",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -398,6 +470,7 @@
 				0511A10E1A91389100BEB8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0511A10F1A91389100BEB8D0 /* Build configuration list for PBXNativeTarget "DropHoleTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +479,7 @@
 				0511A1111A91389100BEB8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

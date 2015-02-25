@@ -1,26 +1,40 @@
-//
-//  AppDelegate.m
-//  DropHole
-//
-//  Created by Nevyn Bengtsson on 2015-02-15.
-//  Copyright (c) 2015 ThirdCog. All rights reserved.
-//
-
 #import "AppDelegate.h"
+#import "DropHoleServer.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <DropHoleServerDelegate>
+{
+	NSSavePanel *_savePanel;
+	NSMutableArray *_transfers;
+}
 
 @property (weak) IBOutlet NSWindow *window;
+@property DropHoleServer *server;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application
+	_server = [[DropHoleServer alloc] initWithDelegate:self];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
 	// Insert code here to tear down your application
+}
+
+- (void)server:(DropHoleServer*)server destinationForTransferRequest:(DropHoleFileTransferRequest*)request callback:(DropHoleURLProvider)callback
+{
+	_savePanel = [NSSavePanel savePanel];
+	_savePanel.nameFieldStringValue = request.filename;
+	NSInteger answer = [_savePanel runModal];
+	if(answer == NSFileHandlingPanelCancelButton) {
+		callback(nil);
+	} else {
+		DropHoleFileTransferStatus *status = callback(_savePanel.URL);
+		if(status) {
+			[[self mutableArrayValueForKey:@"transfers"] addObject:status];
+		}
+	}
+	_savePanel = nil;
 }
 
 @end
